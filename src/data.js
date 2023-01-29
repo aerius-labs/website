@@ -3,63 +3,21 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Landing',
-      links: [
-        {
-          text: 'Sass',
-          href: getPermalink('/landing/saas'),
-        },
-        {
-          text: 'Startup',
-          href: getPermalink('/landing/startup'),
-        },
-        {
-          text: 'Mobile App',
-          href: getPermalink('/landing/mobile-app'),
-        },
-      ],
-    },
-    {
-      text: 'Pages',
-      links: [
-        {
-          text: 'Features',
-          href: '#',
-        },
-        {
-          text: 'Pricing',
-          href: '#',
-        },
-        {
-          text: 'About us',
-          href: '#',
-        },
-        {
-          text: 'Contact',
-          href: '#',
-        },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
-      ],
-    },
-    {
-      text: 'Widgets',
-      href: '#',
-    },
-    {
       text: 'Blog',
-      href: getBlogPermalink(),
+      href: 'blog.aeriuslabs.org',
+    },
+    {
+      text: 'Github',
+      href: 'github.com/aerius-labs',
+    },
+    {
+      text: 'Jobs',
+      href: 'https://hallowed-crayfish-844.notion.site/Jobs-at-Aerius-9a9f7b75d06f437a895d0103ef9a3d8c',
     },
   ],
-  actions: [
-    { type: 'button', text: 'Download', href: 'https://github.com/onwidget/astrowind' }
-  ],
+  // actions: [
+  //   { type: 'button', text: 'Download', href: 'https://github.com/onwidget/astrowind' }
+  // ],
 };
   
 export const footerData = {
