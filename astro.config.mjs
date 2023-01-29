@@ -18,8 +18,8 @@ const whenExternalScripts = (items = []) =>
   SITE.googleAnalyticsId ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 export default defineConfig({
-  site: SITE.origin,
-  base: SITE.basePathname,
+  site: 'https://aerius-labs.github.io',
+  base: '/website',
   trailingSlash: SITE.trailingSlash ? 'always' : 'never',
 
   output: 'static',
