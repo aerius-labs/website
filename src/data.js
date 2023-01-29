@@ -4,11 +4,11 @@ export const headerData = {
   links: [
     {
       text: 'Blog',
-      href: 'blog.aeriuslabs.org',
+      href: 'https://blog.aeriuslabs.org',
     },
     {
       text: 'Github',
-      href: 'github.com/aerius-labs',
+      href: 'https://github.com/aerius-labs',
     },
     {
       text: 'Jobs',
